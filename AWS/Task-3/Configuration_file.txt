@@ -1,0 +1,4 @@
+vim setup_prometheus_alertmanager.sh
+chmod +x setup_prometheus_alertmanager.sh
+./setup_prometheus_alertmanager.sh
+curl http://54.172.63.255:9090

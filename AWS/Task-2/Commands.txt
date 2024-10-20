@@ -1,0 +1,5 @@
+nano setup_nginx.sh
+chmod +x setup_nginx.sh
+./setup_nginx.sh
+cat /etc/nginx/conf.d/video.conf
+curl http://3.85.4.172/videos/sample.mp4
