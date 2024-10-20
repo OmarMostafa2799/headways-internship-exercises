@@ -6,7 +6,7 @@ ALERTMANAGER_VERSION="0.24.0"
 SES_EMAIL="omar.mostafa.contact@gmail.com.com"
 SMTP_USERNAME="AKIAVIOZGBGYS7N5YVEO"  
 SMTP_PASSWORD="BIqXtLm/C32/qtS/XW5B1fECuFFbKoxgp8sxFw0C8imf"  
-INSTANCE_IP=$(curl -s http://18.212.119.98/latest/meta-data/public-ipv4)
+INSTANCE_IP=$(curl -s http://18.234.135.101/latest/meta-data/public-ipv4)
 
 # Update and install dependencies
 sudo apt-get update
