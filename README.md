@@ -1,8 +1,4 @@
-# Headways Internship Exercises
-## How to submit the solutions for these exercises?
-### Answer
-1. Clone this repo to your environment.
-2. For each exercise (ex. ```ex-1.md```), create a file with the coresponding number (ex. ```sol-1.txt``` or ```sol-1.sh```).
-3. Add your solution to the file and save it, then create your own repo on Github and push your changes to that repo.
-
-P.S.: Write the commands that solve the tasks in a text/bash file and make sure that it's reproducible.
+Live task:
+1- Use default vpc in your region to create two subnets one is public and other is private.
+2- Configure a security group to allow HTTP (port 80) and SSH (port 22) traffic. 
+3- Create EC2 instance with an Amazon Linux 2 AMI & t2.micro type.
