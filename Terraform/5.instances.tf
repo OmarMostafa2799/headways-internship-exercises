@@ -39,3 +39,19 @@ resource "aws_key_pair" "my-key" {
 }
 
 
+
+
+
+# Generate inventory file for Ansible
+
+# resource "local_file" "inventory" {
+#   filename = "/ansible/inventory"
+#   content  = <<EOT
+# [private]
+# ${aws_instance.private-ec2.private_ip}
+#
+# [public]
+# ${aws_instance.public-ec2.public_ip}
+# EOT
+# }
+
